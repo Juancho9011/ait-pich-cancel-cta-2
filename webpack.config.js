@@ -7,7 +7,7 @@ module.exports = withModuleFederationPlugin({
   name: 'ait-pich-cancel-cta-2',
 
   exposes: {
-    './Component': './src/app/app.ts', // 👈 esta ruta DEBE existir
+    './Component': './src/app/app.ts',
   },
 
   shared: {
